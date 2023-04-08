@@ -98,8 +98,8 @@ function postpage(e)
         getposthere(){
             return this.posthere;
         }
-        setposthere(posthere){
-            this.posthere = posthere;
+        setposthere(newposthere){
+            this.posthere = newposthere;
         }
     }
 
