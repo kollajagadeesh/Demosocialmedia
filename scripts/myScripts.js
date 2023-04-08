@@ -1,7 +1,7 @@
-const login_m=document.getElementById("login");
+const login_k=document.getElementById("login");
 const reg=document.getElementById("register");
 const msg=document.getElementById("post");
-if(login_m) login_m.addEventListener('submit',loginpage)
+if(login_k) login_k.addEventListener('submit',loginpage)
 if(reg) reg.addEventListener('submit',registerpage)
 if(msg) msg.addEventListener('submit',postpage)
 function registerpage(e){
