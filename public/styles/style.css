@@ -1,6 +1,6 @@
 body{
    
-    background-image: url(/images/register.jpg);
+    background-image: url("../images/register.jpg");
 
     background-size :1366px 768px ;
     color: rgb(0, 0, 0);

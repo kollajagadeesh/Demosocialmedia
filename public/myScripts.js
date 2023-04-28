@@ -1,3 +1,12 @@
+let getBtn = document.getElementById("getusers");
+if(getBtn) getBtn.addEventListener('click',getAllUsers);
+function getAllUsers(){
+    fetch("http://localhost:3000/users/test")
+    .then((res) => res.json())
+    .then((data) => console.log(data))
+    .catch((err) => console.log(err));  
+}
+
 const login_k=document.getElementById("login");
 const reg=document.getElementById("register");
 const msg=document.getElementById("post");
@@ -9,7 +18,7 @@ function registerpage(e){
     let username1=document.getElementById('username').value;
     let emailaddress=document.getElementById('email').value;
     let passwrd=document.getElementById('password').value;
-
+    
 class User{
     constructor(user1,email1,password1)
    {
